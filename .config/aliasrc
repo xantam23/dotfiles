@@ -1,0 +1,20 @@
+ # Verbose Kram
+    alias \
+    bat="cat /sys/class/power_supply/BAT?/capacity" \
+    cp="cp -iv" \
+    mv="mv -iv" \
+    rm="rm -v" \
+    mkd="mkdir -pv"
+
+# Farbiger output wenn möglich
+    alias \
+ 	grep="grep --color=auto" \
+ 	diff="diff --color=auto" \
+    ccat="highlight --out-format=ansi"
+
+# ls Zeugs
+    alias \
+    la="ls -laG" \
+    ll="command ls -lG" \
+    lh="command ls -hAlG" \
+    l="ls -laG"
