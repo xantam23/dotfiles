@@ -20,8 +20,8 @@ zmodload zsh/complist
 compinit
 _comp_options+=(globdots)		# Include hidden files.
 
-# Zeichne neofetch beim start
-neofetch
+# Zeichne fastfetch beim start
+fastfetch
 
 # Smartes durchsuchen der zsh_history (Durchsuche nur den Teil der nach dem Cursor anders ist)
 [[ -n "${key[Up]}" ]] && bindkey "${key[Up]}" history-beginning-search-backward
